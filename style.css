@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*We set the font for the whole page*/
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*Set the background for the body*/
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+/*Set the configuration for the container*/
+.container {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+/*Set style for the banner*/
+.banner {
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*Set stytle for the main title*/
+.title {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/*Set stytle for the description*/
+.description {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(146, 148, 166);
+}
+
+/*Set the style for the plan*/
+.plancontainer {
+    width: 300px;
+    background-color: rgb(243, 243, 247);
+    border-radius: 15px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+}
+
+.iconmusic {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.plantitle {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.price {
+    color: rgb(146, 148, 166);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-size: small;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.change:hover {
+    color: rgb(116, 108, 234);
+    cursor: pointer;
+}
+
+/*Set the style for the button*/
+.buttoncontainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 15px;
+    margin-left: 50px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 20px 14px #e2e1fa;
+}
+
+.buttoncontainer:hover {
+    background-color: rgb(116, 108, 234);
+    cursor: pointer;
+}
+
+/*Set the style for the cancellation*/
+.cancelation {
+    color: rgb(115, 122, 152);
+    margin-bottom: 40px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.cancelation:hover {
+    color: black;
+    cursor: pointer;
+}
